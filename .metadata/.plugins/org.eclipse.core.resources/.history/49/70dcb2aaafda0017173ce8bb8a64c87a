@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class TwoQuestions 
+{
+	public static void main(String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		
+		String type,size, animal, vegetable, mineral;
+	
+		System.out.println("Think of an object, and I'll try guess what it is!");
+		
+		
+		System.out.println("Question 1) Is it an animal, vegetable, or a mineral ");
+		type = keyboard.next();
+	
+		if (type.equals(animal))
+		{
+			System.out.println("Is it bigger or smaller than a shoe box?");
+			type = keyboard.next();
+		}
+		
+	}
+}

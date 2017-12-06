@@ -14,14 +14,14 @@ public class Alittlequiz
 		
 		System.out.println("What is the capital of Alaska? ");
 		System.out.println("1). Poland ");
-		System.out.println("2) Juneau ");
+		System.out.println("2) Juno ");
 		System.out.println("3) South Africa ");
 		System.out.println("4) Alaska is fake ");
 		capaka = keyboard.nextInt();
 	
 		if ((capaka < 2) || (capaka > 2 ))
 		{
-			System.out.println("That is incorrect. The correct answer is Juneau.");
+			System.out.println("That is incorrect. The correct answer is Juno.");
 		}
 		else 
 		{
