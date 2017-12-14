@@ -1,0 +1,11 @@
+
+public class DistanceFormula
+{
+	public static void main(String[] args)
+	{
+				// test the formula a bit
+				double dl = distance (-2,1  , 1,5);
+				 System.out.println
+	}
+
+}
